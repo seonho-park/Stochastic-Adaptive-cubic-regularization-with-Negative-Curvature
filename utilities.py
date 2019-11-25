@@ -68,6 +68,16 @@ def save_figures(fig_data, dataname, fn_prefix, fval = True, dnorm = False, log_
     colors.append('#ffc425') 
     legends.append('NCD')
 
+  if 'CRM' in fig_data:
+    oracles,f_vals_avg,g_norms_avg = fig_data['CRM']
+    oracles = (np.asarray(oracles)/oracle_scale).tolist()
+    x_oracles.append(oracles)
+    g_norms.append(g_norms_avg)
+    f_vals.append(f_vals_avg)
+    line_style.append('-')
+    colors.append('#5d6d7e') 
+    legends.append('CRM')
+
   if 'SANC' in fig_data:
     oracles,f_vals_avg,g_norms_avg = fig_data['SANC']
     oracles = (np.asarray(oracles)/oracle_scale).tolist()
