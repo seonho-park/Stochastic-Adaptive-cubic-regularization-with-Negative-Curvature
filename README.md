@@ -2,7 +2,7 @@
 ### : Stochastic Adaptive cubic regularization with Negative Curvature
 
 <div align="center">
-  <img src="./figs/algorithm.png">
+  <img src="./figs/algorithm.png" width = '750px'>
 </div>
 
 ### [Paper](https://link.springer.com/article/10.1007/s10957-019-01624-6) | [Arxiv[pdf]](https://arxiv.org/abs/1906.11417)
@@ -16,7 +16,7 @@ python main.py
 
 ## Results
 <div align="center">
-  <img src = './assets/results.png'>
+  <img src = './figs/results.png' width = '750px'>
 </div>
 
 ## Citation
